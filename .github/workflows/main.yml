@@ -14,5 +14,6 @@ jobs:
         ftp-server: ftp://ftp.vogelein.com
         ftp-username: vogelein
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: gravityworks/
+        local-dir: gravityworks
+
       #  known-hosts: [fierystudios.com]:2222 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAnrAZsDef1y9/RrVKAG6$
