@@ -1,0 +1,9 @@
+items:
+  - name: 'Green'
+    value: 'green'
+  - name: 'Blue'
+    value: 'blue'
+  - name: 'Rebeccapurple'
+    value: 'rebeccapurple'
+  - name: 'Turquoise'
+    value: 'turquoise'

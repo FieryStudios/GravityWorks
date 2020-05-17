@@ -1,0 +1,4 @@
+name: gravityworkslandodemo
+recipe: drupal8
+config:
+  webroot: .
