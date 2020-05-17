@@ -11,8 +11,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.0
       with:
-        ftp-server: ftp://ftp.vogelein.com/gravityworks
-        ftp-username: vogelein
+        ftp-server: ${{ secrets.GW_FTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-      #  local-dir: ${{ secrets.GRAVITYWORKS_LOCALPATH }}
-      #  known-hosts: [fierystudios.com]:2222 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAnrAZsDef1y9/RrVKAG6$
+        # known-hosts: [fierystudios.com]:2222 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAnrAZsDef1y9/RrVKAG6$
