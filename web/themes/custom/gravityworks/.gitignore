@@ -1,5 +1,5 @@
 # Ignore compiled files.
-dist
+#dist
 
 # Yarn/NPM
 node_modules/
@@ -15,6 +15,5 @@ yarn.lock
 .publish
 
 # Composer
-composer.lock
-/vendor/
-
+# composer.lock
+#/vendor/

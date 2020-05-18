@@ -765,4 +765,17 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+/**
+ *$databases['default']['default'] = array (
+  *  'database' => 'vogelein_gravityworks_drupal',
+ *  'username' => 'vogelein_gwadmin',
+ *  'password' => 'gwadmin',
+ *  #'prefix' => 'vogelein_',
+ *  'host' => '162.241.226.196',
+ *  'port' => '3306',
+ *  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+ *  'driver' => 'mysql',
+ * );
+
+ */
 $settings['config_sync_directory'] = 'sites/default/files/config_nNEs5Bgaog3_KJcnRmcvzN_7YmP--Vwap-0e-khIp_PIccm4z-WSFsx16dLg62DJueZT3WreMg/sync';
