@@ -28,6 +28,28 @@
 
 /* Variations */
 .card--bg {
-  background-color: $gray-lightest;
+  background-color: $lightblue;
   padding: 1em;
+}
+
+.upcoming_trips {
+  color: $black;
+  margin-bottom: 2rem !important;
+  img {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .card__heading {
+    text-transform: uppercase;
+  }
+}
+
+.paddling_symposiums {
+  color: $black;
+  margin-bottom: 2rem !important;
+
+  .card__heading {
+    text-transform: uppercase;
+  }
 }

@@ -72,12 +72,9 @@
 #}
 
 {% embed "@molecules/card/card.twig" with {
-  card__extra_classes: ["grid__item upcoming_trips"],
-  card__modifiers: 'bg',
+  card__extra_classes: ["grid__item paddling_symposiums"],
   card__heading: label,
-  card__body: content.body,
-  card__button__url: url,
-  card__button__content: label
+  card__body: content.body
 } %}
   {% block card__img %}
     {{ content.field_image }}
