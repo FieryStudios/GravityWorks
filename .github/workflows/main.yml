@@ -14,4 +14,4 @@ jobs:
         ftp-server: ${{ secrets.GW_FTP_SERVER }}
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        known-hosts: [fierystudios.com]:2222 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAnrAZsDef1y9/RrVKAG6$
+        known-hosts: ${{ secrets.KNOWN_HOSTS }}
