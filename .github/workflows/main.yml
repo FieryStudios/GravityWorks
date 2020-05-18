@@ -15,3 +15,4 @@ jobs:
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         known-hosts: ${{ secrets.KNOWN_HOSTS }}
+        git-ftp-args: --insecure
