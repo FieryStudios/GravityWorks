@@ -8,18 +8,19 @@
 
   display: inline-block;
   padding: $space;
+  text-align: right;
   text-decoration: none;
   width: 100%;
 
   /* See main-menu.js */
   &--open {
-    background-color: $gray-dark;
+    background-color: $darkblue;
   }
 }
 
 .toggle-expand__text {
   display: block;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: bold;
 
   .toggle-expand--open & {
@@ -47,13 +48,11 @@
   display: none;
   text-align: center;
 
-  &::before {
-    color: $white;
-    content: 'X';
-    display: block;
-    font-size: 2.5rem;
-    line-height: 2;
-  }
+//  &::before {
+//    content: 'X';
+//    font-size: 2rem;
+//    line-height: 2;
+//  }
 
   .toggle-expand--open & {
     display: inline-block;

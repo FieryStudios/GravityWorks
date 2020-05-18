@@ -26,18 +26,22 @@
     bottom: 0;
     color: $white;
     font-family: $font-logo;
-    font-size: 3.1rem;
-    padding: 1rem;
     position: absolute;
     width: 100%;
-
-    @include medium {
-      font-size: 2.4rem;
-    }
 
     @include small {
       font-size: 1.4rem;
       padding: .5rem;
+    }
+
+    @include medium {
+      font-size: 2.4rem;
+      padding: .75rem;
+    }
+
+    @include large {
+      font-size: 3rem;
+      padding: 1rem;
     }
   }
 }

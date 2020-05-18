@@ -1,2 +1,2 @@
 # GravityWorks
-Code Samples for Gravity Works
+A simple Drupal 8 install using the Emulsify theme and Github Actions.
