@@ -11,29 +11,27 @@
 
     /* Only top level */
     &:not(.main-menu__item--sub):hover {
-      background-color: $black;
+      background-color: $darkblue;
       transition: all 0.2s;
+      .main-menu__link--with-sub {
+        color: $lightblue;
+      }
 
       & > .main-menu--sub {
         display: block;
+        color: $lightblue;
       }
-    }
-  }
-
-  &:hover {
-    .main-menu__link::after {
-      color: $gray;
     }
   }
 }
 
 /* Expand Button */
 .expand-sub {
-  background-color: $black;
+  background-color: $darkblue;
+  color: $lightblue;
   cursor: pointer;
   display: block;
   width: 20%;
-  color: $white;
   position: relative;
 
   @include medium {
@@ -58,8 +56,8 @@
 
   /* See main-menu.js */
   &--open {
-    background-color: $black;
-    color: $near-white;
+    background-color: $darkblue;
+    color: $lightblue;
 
     &::after {
       border-top-color: transparent;
@@ -76,10 +74,11 @@
 /* LI (Nested) */
 .main-menu__item--sub {
   @include medium {
+    color: $lightblue;
     display: block;
 
     &:not(:first-child) {
-      border-top: 1px solid $gray-light;
+      border-top: 1px solid $lightblue;
     }
   }
 }

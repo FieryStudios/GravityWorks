@@ -1,23 +1,29 @@
 /* A */
 .main-menu__link {
-  color: $gray-dark;
+  color: $darkblue;
   display: block;
   font-size: 1.2rem;
   line-height: 1.5;
-  padding: $space $space-triple $space $space-double;
+  padding: $space;
   text-decoration: none;
   font-weight: bold;
 
   &--with-sub {
     width: 80%;
+    @include medium {
+      &::after {
+        color: $lightblue;
+        display: inline-block;
+        content: '>';
+      }
+    }
   }
 
   @include medium {
     border-bottom: none;
-    color: $gray-dark;
     display: inline-block;
     font-size: 1.1rem;
-    padding: $space $space-double $space $space;
+    padding: $space;
     text-transform: none;
     position: relative;
     width: auto;
@@ -25,13 +31,7 @@
     &.active,
     &:active,
     &:hover {
-      color: $gray-lighter;
-    }
-
-    &::after {
-      color: $white;
-      display: inline-block;
-      content: '>';
+      color: $lightblue;
     }
 
     &--sub::after {
@@ -39,10 +39,10 @@
     }
 
     &:hover {
-      color: $white;
+      color: $lightblue;
 
       &::after {
-        color: $gray-light;
+        color: $lightblue;
       }
     }
   }
@@ -54,12 +54,11 @@
 
 /* A (Nested) */
 .main-menu__link--sub {
-  color: $gray-dark;
+  color: $darkblue;
   padding-left: $space-triple;
   font-weight: normal;
 
   @include medium {
-    color: $gray-light;
     display: block;
     padding: $space-one-third $space;
   }

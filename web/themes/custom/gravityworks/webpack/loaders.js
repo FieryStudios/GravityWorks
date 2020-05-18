@@ -41,7 +41,7 @@ const SVGSpriteLoader = {
   loader: 'svg-sprite-loader',
   options: {
     extract: true,
-    spriteFilename: '../dist/icons.svg',
+    spriteFilename: '/web/themes/custom/gravityworks/dist/icons.svg',
   },
 };
 

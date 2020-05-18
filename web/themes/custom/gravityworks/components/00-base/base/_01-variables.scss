@@ -6,9 +6,11 @@
  * components/00-base/base/_breakpoints.css
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Crimson+Text:ital,wght@0,600;1,600&family=Merriweather+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap');
 // Fonts
-$font-body: georgia, times, 'Times New Roman', serif;
-$font-heading: 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
+$font-logo: 'Cinzel Decorative', cursive;
+$font-body: 'Merriweather Sans', sans-serif;
+$font-heading: 'Crimson Text', serif;
 
 // Spacing
 $space: 1rem;

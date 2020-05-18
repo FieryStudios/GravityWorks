@@ -10,11 +10,12 @@ $gray-darker: #333;
 $black: black;
 
 // Project
-$green: #228B22;
-$blue: #4180c7;
-$turquoise: #3FE0D0;
+$lightblue: #a6bddb;
+$mediumblue: #3690c0;
+$teal: #02818a;
+$darkblue: #045a8d;
 $rebeccapurple: #639;
-
+$red: #b30000;
 
 // Styleguide
 .sg-colors {
@@ -67,20 +68,28 @@ $rebeccapurple: #639;
     background-color: $black;
   }
 
-  &--green {
-    background-color: $green;
+  &--lightblue {
+    background-color: $lightblue;
   }
 
-  &--blue {
-    background-color: $blue;
+  &--mediumblue {
+    background-color: $mediumblue;
+  }
+
+  &--darkblue {
+    background-color: $darkblue;
   }
 
   &--rebeccapurple {
     background-color: $rebeccapurple;
   }
 
-  &--turquoise {
-    background-color: $turquoise;
+  &--teal {
+    background-color: $teal;
+  }
+
+  &--red {
+    background-color: $red;
   }
 }
 
