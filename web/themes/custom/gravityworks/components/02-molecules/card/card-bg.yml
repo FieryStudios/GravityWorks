@@ -1,2 +1,3 @@
 card__modifiers:
   - 'bg'
+  - 'bg-light'

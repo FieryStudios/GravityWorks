@@ -26,7 +26,8 @@
  * - date: Themed creation date field.
  * - author_name: Themed author name field.
  * - url: Direct URL of the current node.
- * - display_submitted: Whether submission information should be displayed.
+ * - display_su
+ bmitted: Whether submission information should be displayed.
  * - attributes: HTML attributes for the containing element.
  *   The attributes.class element may contain one or more of the following
  *   classes:
@@ -74,13 +75,13 @@
 {% embed "@molecules/card/card.twig" with {
   card__extra_classes: ["grid__item paddling_symposiums"],
   card__heading: label,
+  card__heading__link: url,
+  card__modifiers: 'bg-light',
   card__body: content.body
 } %}
+
   {% block card__img %}
     {{ content.field_image }}
   {% endblock %}
 
-  {% block card__info %}
-    {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-  {% endblock %}
 {% endembed %}

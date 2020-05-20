@@ -32,11 +32,37 @@
   padding: 1em;
 }
 
+.card--bg-light {
+  background-color: $gray-lightest;
+  padding: 1em;
+}
+
 .upcoming_trips {
   color: $black;
   margin-bottom: 2rem !important;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    a {
+      background-color: $teal;
+      color: $white;
+      display:block;
+      line-height: 1.1;
+      padding: .5rem;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $white;
+        color: $darkblue;
+      }
+    }
+  }
+
   img {
-    display: inline-block;
+    display: block;
+    margin: 0;
+    padding: 0;
     width: 100%;
   }
 
@@ -49,7 +75,26 @@
   color: $black;
   margin-bottom: 2rem !important;
 
-  .card__heading {
-    text-transform: uppercase;
+  h2 {
+    margin: 0;
+    padding: 0;
+    a {
+      background-color: $darkblue;
+      color: $white;
+      display:block;
+      line-height: 1.1;
+      padding: .5rem;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: $gray-lightest;
+        color: $darkblue;
+      }
+    }
+  }
+
+  .card__link {
+    display:block;
   }
 }
